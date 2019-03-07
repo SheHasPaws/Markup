@@ -1,18 +1,18 @@
-# How to start Git #
+# How to start Git
 
-..* [Download Git](https://git-scm.com/downloads)
+1. [Download Git](https://git-scm.com/downloads)
 
-..* After installing open git bash:
+2. After installing open git bash:
 
-Generation private key for ssh connect.
+..* Generation private key for ssh connect.
 
 ` $ ssh-keygen -t rsa -b 4096 -C "your@mail.com" `
 
-Copy ssh-keygen and then paste in "Personal settings" => "SSH and GPG".
+..* Copy ssh-keygen and then paste in "Personal settings" => "SSH and GPG".
 
 ` $ clip < ~/.ssh/id_rsa.pub `
 
-Check your connection to github.
+..* Check your connection to github.
 
 ` $ ssh -T git@github.com `
 
@@ -26,7 +26,7 @@ Check your connection to github.
 
 ` $ git config --list `
 
-### Then you can work as you always do ####
+### Then you can work as you always do
 
 `
 $ git init
